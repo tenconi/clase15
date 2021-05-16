@@ -1,0 +1,51 @@
+:root{
+	--sombra:0px 9px 15px rgba(0,0,0,0.9);
+}
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+	background: url("img/background.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;}
+h1{
+	text-align: center;
+	color:white;	
+	padding:50px 0px 75px;
+	text-shadow: var(--sombra);
+}
+main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+i{
+	font-size: 120px;
+	color:white;
+	text-shadow: var(--sombra);
+}
+i:hover{
+	color:yellow;
+	transform: rotate3d(50,45,40,360deg);
+	transition: 0.75s;
+}
+.intro{
+	padding: 25px 0px;
+}
+footer{
+	height: 30px;
+	width: 100%;
+	background: #333;
+	position: absolute;
+	bottom:0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+p{
+	color:white;
+}
